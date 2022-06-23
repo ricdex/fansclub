@@ -1,0 +1,33 @@
+{
+  "name": "fansclub",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "IsamarDavila <isamar.dvgz@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.22.0",
+    "jquery": "^3.6.0",
+    "nuxt": "^2.0.0",
+    "vue-jquery": "^1.0.6",
+    "vue-slick": "^1.1.20",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
