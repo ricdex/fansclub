@@ -2,7 +2,7 @@
     <div class="container-register">
         <b-row>
             <b-col cols="6"  class="colFirst">
-                <h1>Abre una cuenta FansClub en unos minutos.</h1>
+                <h1 class="container-h1">Abre una cuenta FansClub en unos minutos.</h1>
                 <p>Únete a los más de 400.000 usuarios.</p>
                 <b-button size="sm" class="my-2 mx-2 my-sm-0 btn-registrate" >Crea cuenta para iniciar</b-button>
             </b-col>
@@ -14,6 +14,9 @@
 </template>
 
 <style>
+.container-h1 {
+    font-weight: bold;
+}
 .container-register {
     background-color: #F5F5F5;
     max-height: 250px;

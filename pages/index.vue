@@ -6,7 +6,7 @@
       <app-beneficio/>
       <app-banner/>
       <app-nosotros/>
-      <div>
+      <div style="padding-top: 60px;">
         <img src="~/assets/images/filosofia.png" alt="logo-fanclub" class="logo" width="100%" />
       </div>
       <app-valores/>

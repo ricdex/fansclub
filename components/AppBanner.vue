@@ -1,6 +1,6 @@
 <template>
   <div class="banner-container">
-    <p>Ponemos a nuestro equipo de asesores financieros a tu disposición.</p>
+    <p class="banner-p">Ponemos a nuestro equipo de asesores financieros a tu disposición.</p>
     <b-button size="sm" class="mb-2 btn-whatsapp">
       <b-icon icon="whatsapp" aria-hidden="true" class="icon-whatsapp"></b-icon> Hablemos
     </b-button>
@@ -12,8 +12,13 @@
     .banner-container {
         background-image: url("~/assets/images/banner.png");
         background-position: center; /* Center the image */
+        padding: 10px;
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    .banner-p {
+        color: #FFF; 
+        font-weight: bold;
     }
     .btn-whatsapp, .btn-whatsapp:hover{
        background: #00E37A;

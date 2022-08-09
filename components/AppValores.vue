@@ -1,9 +1,10 @@
 <template>
   <div class="container-valores">
+    <h1 class="container-h1">Nuestros valores</h1>
     <b-row>
         <b-col cols="4" >
             <img src="~/assets/images/valor-1.png" alt="valor-1"  height="100px" />
-            <h5> <strong>Fans First</strong></h5>
+            <h5> <strong>Nuestros valores</strong></h5>
             <p>¡Vamos los Fans, vamos la hinchada!
                 Así como el activo más importante de un
                 equipo es su gente, solo brindándote los
@@ -61,3 +62,10 @@
 
   </div>
 </template>
+
+<style>
+.container-h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+</style>
